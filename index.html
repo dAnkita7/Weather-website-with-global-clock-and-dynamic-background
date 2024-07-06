@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="sunny">
+    <div class="container">
+        <div class="search_box">
+
+            <button id="location"><i class="icon">📍</i></button> &nbsp;&nbsp;
+            <input type="text" id="city" placeholder="Enter city name"value="KOLKATA" autocomplete="off">
+          
+            <button id="search"><ion-icon class="icon" name="search"></ion-icon>🔍</button>
+        </div>
+        <div id="show">
+            <!-- Weather details will be appended here -->
+        </div>
+        <div id="forecast" class="forecast-container">
+            <!-- Forecast items will be appended here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
